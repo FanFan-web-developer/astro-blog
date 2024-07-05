@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "在社交场合中，你通常是主动开场的人吗？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 2,
+      "question": "你更喜欢按照计划行事而不是随意应变吗？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 3,
+      "question": "你通常依靠事实和逻辑来做决策吗？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 4,
+      "question": "你更喜欢独自完成任务而不是团队合作吗？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 5,
+      "question": "在选择活动时，你更倾向于新奇的体验而不是熟悉的事物吗？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 6,
+      "question": "你在处理问题时，更注重人的情感而不是客观事实吗？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 7,
+      "question": "你通常能很快决定一件事，而不需要太多时间考虑吗？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 8,
+      "question": "你更倾向于思考未来的可能性而不是目前的现实情况吗？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 9,
+      "question": "你在社交场合中会感到疲惫或能量被消耗吗？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 10,
+      "question": "你在处理问题时，会更多地依赖你的直觉而不是现有的知识吗？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 11,
+      "question": "你在做决定时，是否更倾向于考虑原则和标准而不是个人情况？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 12,
+      "question": "你更喜欢安排和组织好每件事，而不是随时应变吗？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 13,
+      "question": "你在工作中更喜欢按照自己的节奏，而不是别人的节奏吗？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 14,
+      "question": "你倾向于从多个角度考虑问题而不是简单地接受现有的答案吗？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 15,
+      "question": "在面对新事物时，你是否感到兴奋而不是焦虑？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 16,
+      "question": "你是否喜欢探索复杂和抽象的理论而不是简单明了的事实？",
+      "dimension": "J-P"
+    }
+  ]
+}
