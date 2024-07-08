@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const { frontmatter } = Astro.props;
+
+const positions: Record<string, string> = {
+  "INTJ": "-84px 0",
+  "INTP": "-184px 0",
+  "ENTJ": "-290px 0",
+  "ENTP": "-390px 0",
+
+  "INFJ": "-84px -104px",
+  "INFP": "-184px -104px",
+  "ENFJ": "-290px -104px",
+  "ENFP": "-390px -104px",
+
+  "ISTJ": "-84px -210px",
+  "ISFJ": "-184px -210px",
+  "ESTJ": "-290px -210px",
+  "ESFJ": "-390px -210px",
+
+  "ISTP": "-84px -322px",
+  "ISFP": "-184px -322px",
+  "ESTP": "-290px -322px",
+  "ESFP": "-390px -322px",
+};
+
+const colors: Record<string, string> = {
+  "INTJ": "#fd62d6",
+  "INTP": "#fd62d6", 
+  "ENTJ": "#fd62d6", 
+  "ENTP": "#fd62d6", 
+
+  "INFJ": "#adf893",
+  "INFP": "#adf893",
+  "ENFJ": "#adf893",
+  "ENFP": "#adf893",
+
+  "ISTJ": "#a2eeff",
+  "ISFJ": "#a2eeff",
+  "ESTJ": "#a2eeff",
+  "ESFJ": "#a2eeff",
+
+  "ISTP": "#feee8d",
+  "ISFP": "#feee8d",
+  "ESTP": "#feee8d",
+  "ESFP": "#feee8d",
+}
+
+const position = positions[frontmatter.type];
+const color = colors[frontmatter.type];
+---
+<Layout title={frontmatter.type}>
+  <main class="flex flex-col items-center justify-center">
+    <div class="avatar"></div>
+    <slot />
+  </main>
+</Layout>
+<style define:vars={{ position, color }}>
+.avatar {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+
+  background-image: url('/mbti-16-personal.png');
+  background-position: var(--position);
+}
+
+main :global(h2) {
+  width: 100%;
+  text-align: center;
+  border-top: 8px solid var(--color);
+  padding-top: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 1px var(--color);
+}
+
+main :global(strong) {
+  padding: 6px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+main :global(ul) {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+</style>
