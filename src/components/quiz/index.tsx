@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import freeQuiz from '../../content/quiz/free.json';
 import { MBTI_DIMENSIONS } from '../../constants/dimension';
 import Styles from './index.module.scss';
-console.log(Styles)
+
 const Quiz: React.FC = () => {
   const questionIndex = useRef(0);
   const dimensions = useRef({
