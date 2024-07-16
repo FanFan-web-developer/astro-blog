@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
-import freeQuiz from '../content/quiz/free.json';
-import { MBTI_DIMENSIONS } from '../constants/dimension';
-
+import freeQuiz from '../../content/quiz/free.json';
+import { MBTI_DIMENSIONS } from '../../constants/dimension';
+import Styles from './index.module.scss';
+console.log(Styles)
 const Quiz: React.FC = () => {
   const questionIndex = useRef(0);
   const dimensions = useRef({
@@ -11,6 +12,7 @@ const Quiz: React.FC = () => {
     [MBTI_DIMENSIONS.J_P]: 0,
   })
   const [currentQuestion, setCurrentQuestion] = useState(freeQuiz.questions[questionIndex.current]);
+
   const moveOnNextQuestion = (point: number) => {
     dimensions.current[currentQuestion.dimension as MBTI_DIMENSIONS] += point;
     questionIndex.current++;
@@ -30,12 +32,12 @@ const Quiz: React.FC = () => {
       {currentQuestion.question}
     </div>
     <div className='flex flex-col justify-center space-y-3'>
-      <span className="flex justify-center items-center w-full h-12 shadow-sm rounded-lg border border-purple-400 bg-white"
+      <span className={`${Styles["btn-yes"]} flex justify-center items-center w-full h-12 shadow-sm rounded-lg border border-purple-400 bg-white`}
         onClick={() => moveOnNextQuestion(1)}
       >
         是
       </span>
-      <span className="flex justify-center items-center w-full h-12 shadow-sm rounded-lg border border-red-400 bg-white"
+      <span className={`${Styles["btn-no"]} flex justify-center items-center w-full h-12 shadow-sm rounded-lg border border-red-400 bg-white`}
         onClick={() => moveOnNextQuestion(-1)}
       >
         否

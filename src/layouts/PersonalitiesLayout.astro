@@ -70,23 +70,54 @@ const color = colors[frontmatter.type];
 main :global(h2) {
   width: 100%;
   text-align: center;
-  border-top: 8px solid var(--color);
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 20px;
-  margin-top: 10px;
   margin-bottom: 30px;
   text-shadow: 0px 0px 1px var(--color);
 }
 
-main :global(strong) {
-  padding: 6px 10px;
-  border: 1px solid #000;
-  border-radius: 5px;
+main :global(h4) {
+  text-align: center;
+  border: none;
+  background-color: var(--color);
+
+  padding: 2px 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  color: #333;
+}
+
+main :global(h4+p) {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
 }
 
 main :global(ul) {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 16px;
+  padding: 10px 20px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+main :global(#适合的职业+ul) {
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  column-gap: 16px;
+  font-family: monospace;
+  font-size: 14px;
+  flex-wrap: wrap;
+  li {
+    border: 1px dashed var(--color);
+    padding: 2px 10px;
+    border-radius: 4px;
+  }
 }
 </style>

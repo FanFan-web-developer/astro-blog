@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "在社交场合中，你通常是主动开场的人吗？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 2,
+      "question": "你是否更喜欢一对一的交谈而不是大群体的讨论？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 3,
+      "question": "你是否容易感到社交活动疲惫？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 4,
+      "question": "你在聚会中是否更喜欢观察而不是参与？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 5,
+      "question": "你是否更喜欢独处以恢复能量？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 6,
+      "question": "你是否喜欢计划并组织社交活动？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 7,
+      "question": "你是否觉得和别人交往需要很大的努力？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 8,
+      "question": "你是否喜欢与很多人交朋友？",
+      "dimension": "E-I"
+    },
+    {
+      "id": 9,
+      "question": "你是否更注重现实中的实际情况而不是抽象的概念？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 10,
+      "question": "你是否喜欢从实际经验中学习而不是理论学习？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 11,
+      "question": "你是否更喜欢按部就班地完成任务而不是即兴发挥？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 12,
+      "question": "你是否更关注未来的可能性而不是当前的实际情况？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 13,
+      "question": "你是否更喜欢讨论具体事实而不是理论？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 14,
+      "question": "你是否更喜欢详细的说明而不是大概的概念？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 15,
+      "question": "你是否更关注细节而不是整体？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 16,
+      "question": "你是否更喜欢通过具体实例理解问题而不是抽象思考？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 17,
+      "question": "你是否更喜欢现实而不是想象？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 18,
+      "question": "你是否更喜欢已有的知识而不是新奇的想法？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 19,
+      "question": "你是否更喜欢按部就班而不是灵活变通？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 20,
+      "question": "你是否更喜欢现有的事实而不是潜在的可能性？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 21,
+      "question": "你是否更喜欢具体的事情而不是抽象的概念？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 22,
+      "question": "你是否更关注当前的现实而不是未来的可能？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 23,
+      "question": "你是否更喜欢实用的知识而不是理论？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 24,
+      "question": "你是否更喜欢在细节上精益求精而不是大概即可？",
+      "dimension": "S-N"
+    },
+    {
+      "id": 25,
+      "question": "你是否在决策时更依赖逻辑而不是情感？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 26,
+      "question": "你是否认为公正比同情心更重要？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 27,
+      "question": "你是否更喜欢分析问题而不是直觉判断？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 28,
+      "question": "你是否在决策时更关注人际关系而不是任务本身？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 29,
+      "question": "你是否更喜欢用事实和数据支持你的观点？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 30,
+      "question": "你是否更喜欢保持客观而不是感性？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 31,
+      "question": "你是否认为解决问题的最佳方式是通过逻辑分析？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 32,
+      "question": "你是否更注重情感上的理解而不是事实上的准确性？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 33,
+      "question": "你是否更喜欢通过逻辑分析解决问题而不是直觉？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 34,
+      "question": "你是否认为事实比感受更重要？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 35,
+      "question": "你是否更喜欢通过客观数据做决策而不是情感？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 36,
+      "question": "你是否更注重任务的完成而不是人际关系的维护？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 37,
+      "question": "你是否更喜欢逻辑分析而不是情感判断？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 38,
+      "question": "你是否更喜欢客观事实而不是主观感受？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 39,
+      "question": "你是否更喜欢用逻辑推理解决问题？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 40,
+      "question": "你是否更喜欢通过逻辑而不是直觉做决策？",
+      "dimension": "T-F"
+    },
+    {
+      "id": 41,
+      "question": "你是否喜欢提前计划好事情而不是临时应变？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 42,
+      "question": "你是否更喜欢按计划行事而不是灵活应变？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 43,
+      "question": "你是否更喜欢有条理的生活方式而不是随意的生活？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 44,
+      "question": "你是否在做事时喜欢按步骤进行而不是随性发挥？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 45,
+      "question": "你是否更喜欢保持生活中的确定性而不是不确定性？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 46,
+      "question": "你是否喜欢提前安排好事情而不是随时应对？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 47,
+      "question": "你是否更喜欢按照计划行事而不是灵活调整？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 48,
+      "question": "你是否更喜欢一件事做完再做另一件，而不是多任务处理？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 49,
+      "question": "你是否更喜欢生活中有计划性而不是随机性？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 50,
+      "question": "你是否喜欢在行动前先做计划？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 51,
+      "question": "你是否更喜欢预先安排好事情而不是临时决定？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 52,
+      "question": "你是否更喜欢有条理的环境而不是随意的环境？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 53,
+      "question": "你是否更喜欢事先规划而不是随机应变？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 54,
+      "question": "你是否更喜欢按计划行事而不是灵活应对？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 55,
+      "question": "你是否更喜欢有条不紊的工作方式而不是随性而为？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 56,
+      "question": "你是否更喜欢有明确目标而不是随机目标？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 57,
+      "question": "你是否更喜欢有明确计划而不是随意安排？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 58,
+      "question": "你是否更喜欢有条理的生活方式？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 59,
+      "question": "你是否更喜欢按部就班的生活方式？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 60,
+      "question": "你是否更喜欢有条理的生活安排？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 61,
+      "question": "你是否更喜欢有条理的环境？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 62,
+      "question": "你是否更喜欢有条理的工作方式？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 63,
+      "question": "你是否更喜欢有条不紊的工作？",
+      "dimension": "J-P"
+    },
+    {
+      "id": 64,
+      "question": "你是否更喜欢有条不紊的生活？",
+      "dimension": "J-P"
+    }
+  ]
+}
