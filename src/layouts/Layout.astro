@@ -16,16 +16,11 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<meta name="description" content="MBTI 16型人格测试，专业 MBTI 测试。intj intp infj infp entj entp enfj enfp istj istp isfj isfp estj estp esfj esfp" />
 	</head>
 	<body>
 		<slot />
 		<SpeedInsights />
-		<script is:inline>
-			function speedInsightsBeforeSend(data){
-				console.log("Speed Insights before send", data)
-				return data;
-			}
-		</script>
 	</body>
 </html>
 <style is:global>

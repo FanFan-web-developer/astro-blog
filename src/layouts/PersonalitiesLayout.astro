@@ -50,9 +50,11 @@ const colors: Record<string, string> = {
 const position = positions[frontmatter.type];
 const color = colors[frontmatter.type];
 ---
-<Layout title={frontmatter.type}>
+<Layout title={`MBTI 人格测试 ${frontmatter.type}`}>
   <main class="flex flex-col items-center justify-center">
-    <div class="avatar"></div>
+    <a href="/" title={frontmatter.type}>
+      <div class="avatar"></div>
+    </a>
     <slot />
   </main>
 </Layout>
@@ -67,7 +69,7 @@ const color = colors[frontmatter.type];
   background-position: var(--position);
 }
 
-main :global(h2) {
+main :global(h1) {
   width: 100%;
   text-align: center;
   padding-top: 10px;
